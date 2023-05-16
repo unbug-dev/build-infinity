@@ -39522,4 +39522,16 @@ footer.bg-dark.angled.upper-start:before {
   padding-top: 70px;
 }
 
+
+@media screen and (max-width: 480px) {
+  .buildin-swiper-slider-text-wrapper h2 {
+    font-size: 20px !important;
+    
+  }
+  .buildin-swiper-slider-text-wrapper p {
+    font-size: 18px !important;
+    
+  }
+}
+
 /* CUSTOM CSS */
