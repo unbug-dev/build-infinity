@@ -11335,7 +11335,8 @@ fieldset:disabled .btn {
 }
 .text-primary {
   --bs-text-opacity: 1;
-  color: #3f78e0 !important;
+  color: #137f27 !important;
+  /* color: #3f78e0 !important; */
 }
 .text-secondary {
   --bs-text-opacity: 1;
@@ -39530,7 +39531,12 @@ footer.bg-dark.angled.upper-start:before {
   }
   .buildin-swiper-slider-text-wrapper p {
     font-size: 18px !important;
-    
+  }
+
+  .btn.btn-circle.btn-play {
+    width: 2rem;
+    height: 2rem;
+    font-size: calc(1.355rem + 1.26vw);
   }
 }
 
